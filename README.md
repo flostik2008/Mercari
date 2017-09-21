@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mercari-ios-test
 For Technical interview
 
@@ -21,3 +22,6 @@ display sold.png as shown when Item.status equals to sold_out.
 - When you have questions, please don't hesitate to ask!
 
 Estimated time commitment: 2 hours
+=======
+# Mercari
+>>>>>>> a5a323e0d7bd7b94dab4bd08f03d05cde996495a
