@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048BE8B1399E22885B758F58B5103AAF /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB96828797FFE1F068EAE57B0D46D87 /* UIImage+Haneke.swift */; };
+		0DA289E3CFC0496E8A393A78831458C6 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D68538525EB1A251582846C09BFCE /* Fetch.swift */; };
+		233D0C74026D4F77CB562E90B2714777 /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64015B487F4C03EB0CC0A61E41B0DE10 /* DiskFetcher.swift */; };
+		25F558B3167CC7FAFCCC902B83ED0599 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804A73E0130DA2D565A5FB86C69393D /* String+Haneke.swift */; };
+		2D93F149491F25BCC11EBF259DE1791D /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDBDB123B1095AABBFF137642DF166 /* NSURLResponse+Haneke.swift */; };
+		34BA8F11703FC6F1FC94812A2B451A2D /* HanekeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1069B62A130BAEC4C55E8CE4E8A03723 /* HanekeSwift-dummy.m */; };
+		368FBAAE5E624FDDB6F39D1ACB1DA144 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35C303996CE58140309F99C88D2AD6 /* UIImageView+Haneke.swift */; };
+		424F2EE8F3FF0206A8C0455939698D41 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B4606DDCFD9AFDD8167B94DCCEA796 /* Fetcher.swift */; };
+		44ACFD0543993523C7B2875814A25A65 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057519B69B7C4597C0456CD3B929110 /* DiskCache.swift */; };
+		45D941F68F765620760E8EC56F4C3904 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37613BF12B725D61CF56AE6992F8D4D6 /* NetworkFetcher.swift */; };
+		493D9302F06B44D3B40EB24257D25972 /* Pods-MercariIntv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5766FF0ADF43C3A643A2F26DE4C89BB7 /* Pods-MercariIntv-dummy.m */; };
+		516B284EC38BCC14EBF5A275790CFA9E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565B0D8E848380E6135E1275CEC7B68 /* Data.swift */; };
+		5946A4834D77660F3D8188ED70FDC603 /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF268EEA5916939B437E94199410E3 /* NSHTTPURLResponse+Haneke.swift */; };
+		6DF6E8C92BE17D461757095A45A22116 /* Pods-MercariIntvTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F767C8CF8A24273E56D9D59EE9BC27 /* Pods-MercariIntvTests-dummy.m */; };
+		6F41805C2984D3172CEBDCB232A9E205 /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732D8FB929FA72289120AE92F3B617D /* CryptoSwiftMD5.swift */; };
+		734D2D7728F4FDB196AFBDA6FE131376 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84139066F43D03F61B9FB9B7C4C8BF02 /* Log.swift */; };
+		73E157C1532A60D7F185BD09FFE6E334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E867974234ECCA3F0419879A37EF9A1 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B4A30D26EBB24D1BBBEABCABB0F59 /* Haneke.swift */; };
+		86200AD8B95C58CEF79495D6065402EC /* Pods-MercariIntvTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0FD8D584E0B17AB18497708D64645E /* Pods-MercariIntvTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D751AE797836951F9FD0A4E9E6AE344 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A81AA29A193002939CDA0DAEFF231C3 /* CGSize+Swift.swift */; };
+		9F0ED20EDA02495C3CE53351168BDA34 /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374882BB41DC96927C89C524E6D7084 /* UIView+Haneke.swift */; };
+		A257C7E3394A9813188DC886B978193F /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F34E7B155A02AFF31501F06FA74C1 /* UIButton+Haneke.swift */; };
+		C9FDF6F209E90829A8E96B03077116BB /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A528EF0C68E0FD4D1E63A9EF5C98302 /* NSFileManager+Haneke.swift */; };
+		D734F5980CF4609635307AEE7ECB65B2 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473A3C60B8ABBE315AE5E900BB09702 /* Cache.swift */; };
+		DF314D25982664D880A3503301DCA3C5 /* Pods-MercariIntv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0422B2EEBBAAF3FD5C14B40BCD418E8 /* Pods-MercariIntv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC47BB7AFEF34F9797A031154BFE74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F211DBF02AD9CCDECA9BD1C3F58CD42E /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E9C8945004A749B0FA7FAE80953B7 /* Format.swift */; };
+		F852975B78C9F45FCD6D13BC9CEAD421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F9C156883B938B995522ECC76E4A65DD /* HanekeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A2C28C982D6228E56FF100BB1406D8 /* HanekeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F7A2D82EAFA0FE2F38410CD20DD5FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4759774042D8E013517E82C6F7A058;
+			remoteInfo = HanekeSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0058617A9EA58EF0836B7885963B77A3 /* Pods-MercariIntv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MercariIntv.modulemap"; sourceTree = "<group>"; };
+		012406B0535E0E8C57AB4DCAEE3F4F47 /* Pods-MercariIntvTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MercariIntvTests.modulemap"; sourceTree = "<group>"; };
+		1069B62A130BAEC4C55E8CE4E8A03723 /* HanekeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-dummy.m"; sourceTree = "<group>"; };
+		1A528EF0C68E0FD4D1E63A9EF5C98302 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		2057519B69B7C4597C0456CD3B929110 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		21CCB98EB176406E450CF26180DAD2EF /* Pods-MercariIntvTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercariIntvTests-frameworks.sh"; sourceTree = "<group>"; };
+		272865F1D03D72FAE60D516460C3BE82 /* Pods-MercariIntv-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercariIntv-resources.sh"; sourceTree = "<group>"; };
+		2732D8FB929FA72289120AE92F3B617D /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		2FB96828797FFE1F068EAE57B0D46D87 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		324E9C8945004A749B0FA7FAE80953B7 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
+		3374882BB41DC96927C89C524E6D7084 /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
+		37613BF12B725D61CF56AE6992F8D4D6 /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		3B52FB1C3F6E87B6BF1729B77EB548EB /* Pods-MercariIntvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercariIntvTests.release.xcconfig"; sourceTree = "<group>"; };
+		44B4606DDCFD9AFDD8167B94DCCEA796 /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
+		4804A73E0130DA2D565A5FB86C69393D /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		48DF268EEA5916939B437E94199410E3 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		4B92AFECF7BE9A9A6C06FBA403178DFD /* Pods-MercariIntvTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MercariIntvTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5766FF0ADF43C3A643A2F26DE4C89BB7 /* Pods-MercariIntv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MercariIntv-dummy.m"; sourceTree = "<group>"; };
+		5A81AA29A193002939CDA0DAEFF231C3 /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
+		610018456253065C5F85EE744C8EF7CB /* HanekeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.xcconfig; sourceTree = "<group>"; };
+		62F767C8CF8A24273E56D9D59EE9BC27 /* Pods-MercariIntvTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MercariIntvTests-dummy.m"; sourceTree = "<group>"; };
+		64015B487F4C03EB0CC0A61E41B0DE10 /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7473A3C60B8ABBE315AE5E900BB09702 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
+		7565B0D8E848380E6135E1275CEC7B68 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
+		76C01BAF5C1696C300EA1F672445C3E6 /* Pods-MercariIntv-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercariIntv-frameworks.sh"; sourceTree = "<group>"; };
+		7F57449771D9F09541203350FD607864 /* Pods-MercariIntvTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercariIntvTests-resources.sh"; sourceTree = "<group>"; };
+		84139066F43D03F61B9FB9B7C4C8BF02 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Haneke/Log.swift; sourceTree = "<group>"; };
+		868447E77BFE7924E8AC87A347C3A7E7 /* Pods-MercariIntv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercariIntv.debug.xcconfig"; sourceTree = "<group>"; };
+		8B0FD8D584E0B17AB18497708D64645E /* Pods-MercariIntvTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MercariIntvTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FCEE7744A658557726D90ABE054420A /* Pods_MercariIntvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercariIntvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B12F1FA88A6AE6D742A805DE6E1378 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76D055A1017DD91BB34BE5C78FAB139 /* HanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanekeSwift.modulemap; sourceTree = "<group>"; };
+		BF488DE411099F53C95A9FF41AA7B387 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9F34E7B155A02AFF31501F06FA74C1 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		C22D68538525EB1A251582846C09BFCE /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
+		C97D49952A3A96DF88C1BDDC6C7289EE /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0422B2EEBBAAF3FD5C14B40BCD418E8 /* Pods-MercariIntv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MercariIntv-umbrella.h"; sourceTree = "<group>"; };
+		D9924200DFD67B21875F8DFB0E1EE50C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCDBDB123B1095AABBFF137642DF166 /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		DC58E0943575B6B8CA4FEE2725830EAF /* Pods-MercariIntv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercariIntv.release.xcconfig"; sourceTree = "<group>"; };
+		E0B00CF02AC113E89A1C3D9D6D946B4E /* Pods-MercariIntv-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MercariIntv-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3A2C28C982D6228E56FF100BB1406D8 /* HanekeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-umbrella.h"; sourceTree = "<group>"; };
+		EFFC93D702161B187DA82D6C5FBAF3CA /* Pods-MercariIntv-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercariIntv-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1352B7242FA15FA970FDD3ADC7E5479 /* HanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-prefix.pch"; sourceTree = "<group>"; };
+		F578A2BCADF3FD7340A8D6E92F66F396 /* Pods-MercariIntvTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercariIntvTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F73B4A30D26EBB24D1BBBEABCABB0F59 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
+		F88F1565837E1BD6CEFEEEEB2E677A34 /* Pods_MercariIntv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercariIntv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD35C303996CE58140309F99C88D2AD6 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		FE5565968F932D68E8C4BA30CB251CCC /* Pods-MercariIntvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercariIntvTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1638C4563687069A9E8A146A10D2BE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F852975B78C9F45FCD6D13BC9CEAD421 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4588AD737F6EFCA17B33F176417A6D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E157C1532A60D7F185BD09FFE6E334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE8F3FCB72C7CD63ADDAF4C3227F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC47BB7AFEF34F9797A031154BFE74D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4507AC7A45C6DC5A1E1F6A72C7F3BEBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FDCA359417E573884832C41827ABBB2 /* Pods-MercariIntv */,
+				DF5DEA2906B0288FBCBC2C9F9DC97800 /* Pods-MercariIntvTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		559D20F74E4C67F047BC3D763D41D863 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B76D055A1017DD91BB34BE5C78FAB139 /* HanekeSwift.modulemap */,
+				610018456253065C5F85EE744C8EF7CB /* HanekeSwift.xcconfig */,
+				1069B62A130BAEC4C55E8CE4E8A03723 /* HanekeSwift-dummy.m */,
+				F1352B7242FA15FA970FDD3ADC7E5479 /* HanekeSwift-prefix.pch */,
+				E3A2C28C982D6228E56FF100BB1406D8 /* HanekeSwift-umbrella.h */,
+				A0B12F1FA88A6AE6D742A805DE6E1378 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HanekeSwift";
+			sourceTree = "<group>";
+		};
+		6FDCA359417E573884832C41827ABBB2 /* Pods-MercariIntv */ = {
+			isa = PBXGroup;
+			children = (
+				BF488DE411099F53C95A9FF41AA7B387 /* Info.plist */,
+				0058617A9EA58EF0836B7885963B77A3 /* Pods-MercariIntv.modulemap */,
+				E0B00CF02AC113E89A1C3D9D6D946B4E /* Pods-MercariIntv-acknowledgements.markdown */,
+				EFFC93D702161B187DA82D6C5FBAF3CA /* Pods-MercariIntv-acknowledgements.plist */,
+				5766FF0ADF43C3A643A2F26DE4C89BB7 /* Pods-MercariIntv-dummy.m */,
+				76C01BAF5C1696C300EA1F672445C3E6 /* Pods-MercariIntv-frameworks.sh */,
+				272865F1D03D72FAE60D516460C3BE82 /* Pods-MercariIntv-resources.sh */,
+				D0422B2EEBBAAF3FD5C14B40BCD418E8 /* Pods-MercariIntv-umbrella.h */,
+				868447E77BFE7924E8AC87A347C3A7E7 /* Pods-MercariIntv.debug.xcconfig */,
+				DC58E0943575B6B8CA4FEE2725830EAF /* Pods-MercariIntv.release.xcconfig */,
+			);
+			name = "Pods-MercariIntv";
+			path = "Target Support Files/Pods-MercariIntv";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EA01CB30C78F0F83B3F3C65689211E5C /* Pods */,
+				B6542313193BC6FFE8F9CA856DE762E5 /* Products */,
+				4507AC7A45C6DC5A1E1F6A72C7F3BEBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B6542313193BC6FFE8F9CA856DE762E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97D49952A3A96DF88C1BDDC6C7289EE /* Haneke.framework */,
+				F88F1565837E1BD6CEFEEEEB2E677A34 /* Pods_MercariIntv.framework */,
+				9FCEE7744A658557726D90ABE054420A /* Pods_MercariIntvTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DADB31500FF24BFC82D241566DEFF3AC /* HanekeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7473A3C60B8ABBE315AE5E900BB09702 /* Cache.swift */,
+				5A81AA29A193002939CDA0DAEFF231C3 /* CGSize+Swift.swift */,
+				2732D8FB929FA72289120AE92F3B617D /* CryptoSwiftMD5.swift */,
+				7565B0D8E848380E6135E1275CEC7B68 /* Data.swift */,
+				2057519B69B7C4597C0456CD3B929110 /* DiskCache.swift */,
+				64015B487F4C03EB0CC0A61E41B0DE10 /* DiskFetcher.swift */,
+				C22D68538525EB1A251582846C09BFCE /* Fetch.swift */,
+				44B4606DDCFD9AFDD8167B94DCCEA796 /* Fetcher.swift */,
+				324E9C8945004A749B0FA7FAE80953B7 /* Format.swift */,
+				F73B4A30D26EBB24D1BBBEABCABB0F59 /* Haneke.swift */,
+				84139066F43D03F61B9FB9B7C4C8BF02 /* Log.swift */,
+				37613BF12B725D61CF56AE6992F8D4D6 /* NetworkFetcher.swift */,
+				1A528EF0C68E0FD4D1E63A9EF5C98302 /* NSFileManager+Haneke.swift */,
+				48DF268EEA5916939B437E94199410E3 /* NSHTTPURLResponse+Haneke.swift */,
+				DBCDBDB123B1095AABBFF137642DF166 /* NSURLResponse+Haneke.swift */,
+				4804A73E0130DA2D565A5FB86C69393D /* String+Haneke.swift */,
+				BF9F34E7B155A02AFF31501F06FA74C1 /* UIButton+Haneke.swift */,
+				2FB96828797FFE1F068EAE57B0D46D87 /* UIImage+Haneke.swift */,
+				FD35C303996CE58140309F99C88D2AD6 /* UIImageView+Haneke.swift */,
+				3374882BB41DC96927C89C524E6D7084 /* UIView+Haneke.swift */,
+				559D20F74E4C67F047BC3D763D41D863 /* Support Files */,
+			);
+			path = HanekeSwift;
+			sourceTree = "<group>";
+		};
+		DF5DEA2906B0288FBCBC2C9F9DC97800 /* Pods-MercariIntvTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9924200DFD67B21875F8DFB0E1EE50C /* Info.plist */,
+				012406B0535E0E8C57AB4DCAEE3F4F47 /* Pods-MercariIntvTests.modulemap */,
+				4B92AFECF7BE9A9A6C06FBA403178DFD /* Pods-MercariIntvTests-acknowledgements.markdown */,
+				F578A2BCADF3FD7340A8D6E92F66F396 /* Pods-MercariIntvTests-acknowledgements.plist */,
+				62F767C8CF8A24273E56D9D59EE9BC27 /* Pods-MercariIntvTests-dummy.m */,
+				21CCB98EB176406E450CF26180DAD2EF /* Pods-MercariIntvTests-frameworks.sh */,
+				7F57449771D9F09541203350FD607864 /* Pods-MercariIntvTests-resources.sh */,
+				8B0FD8D584E0B17AB18497708D64645E /* Pods-MercariIntvTests-umbrella.h */,
+				FE5565968F932D68E8C4BA30CB251CCC /* Pods-MercariIntvTests.debug.xcconfig */,
+				3B52FB1C3F6E87B6BF1729B77EB548EB /* Pods-MercariIntvTests.release.xcconfig */,
+			);
+			name = "Pods-MercariIntvTests";
+			path = "Target Support Files/Pods-MercariIntvTests";
+			sourceTree = "<group>";
+		};
+		EA01CB30C78F0F83B3F3C65689211E5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DADB31500FF24BFC82D241566DEFF3AC /* HanekeSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1230F5D0018AF9B0BFF25558571D1DB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C156883B938B995522ECC76E4A65DD /* HanekeSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D7E11878732B446C706D03850302FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF314D25982664D880A3503301DCA3C5 /* Pods-MercariIntv-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6284A4942629D9DD85DF7B245D0A406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86200AD8B95C58CEF79495D6065402EC /* Pods-MercariIntvTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EADC190B8939AB98242D6F6DAE30B03 /* Pods-MercariIntvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC20533F21127470A7FE126AFCF25035 /* Build configuration list for PBXNativeTarget "Pods-MercariIntvTests" */;
+			buildPhases = (
+				69F7530D569A7D68405678F61D9EED4E /* Sources */,
+				4588AD737F6EFCA17B33F176417A6D80 /* Frameworks */,
+				D6284A4942629D9DD85DF7B245D0A406 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MercariIntvTests";
+			productName = "Pods-MercariIntvTests";
+			productReference = 9FCEE7744A658557726D90ABE054420A /* Pods_MercariIntvTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		987B69804E7EC5CCEEE287E88A9F7D89 /* Pods-MercariIntv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCBD4BB69F72FFD84ECD27D34A3935B /* Build configuration list for PBXNativeTarget "Pods-MercariIntv" */;
+			buildPhases = (
+				192697D016FBD6213215605329216635 /* Sources */,
+				1638C4563687069A9E8A146A10D2BE08 /* Frameworks */,
+				95D7E11878732B446C706D03850302FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4AEB0DEF5F2A9636F5D6517BBF3811 /* PBXTargetDependency */,
+			);
+			name = "Pods-MercariIntv";
+			productName = "Pods-MercariIntv";
+			productReference = F88F1565837E1BD6CEFEEEEB2E677A34 /* Pods_MercariIntv.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE4759774042D8E013517E82C6F7A058 /* HanekeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD468FB375E9C1971E9F0CFE51A4135 /* Build configuration list for PBXNativeTarget "HanekeSwift" */;
+			buildPhases = (
+				3F39FB05072ED8C17BABEB9BC822959C /* Sources */,
+				A7AE8F3FCB72C7CD63ADDAF4C3227F08 /* Frameworks */,
+				1230F5D0018AF9B0BFF25558571D1DB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanekeSwift;
+			productName = HanekeSwift;
+			productReference = C97D49952A3A96DF88C1BDDC6C7289EE /* Haneke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					6EADC190B8939AB98242D6F6DAE30B03 = {
+						DevelopmentTeam = PC6ZE95SDH;
+						ProvisioningStyle = Automatic;
+					};
+					987B69804E7EC5CCEEE287E88A9F7D89 = {
+						DevelopmentTeam = PC6ZE95SDH;
+						ProvisioningStyle = Automatic;
+					};
+					AE4759774042D8E013517E82C6F7A058 = {
+						DevelopmentTeam = PC6ZE95SDH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B6542313193BC6FFE8F9CA856DE762E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4759774042D8E013517E82C6F7A058 /* HanekeSwift */,
+				987B69804E7EC5CCEEE287E88A9F7D89 /* Pods-MercariIntv */,
+				6EADC190B8939AB98242D6F6DAE30B03 /* Pods-MercariIntvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		192697D016FBD6213215605329216635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493D9302F06B44D3B40EB24257D25972 /* Pods-MercariIntv-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F39FB05072ED8C17BABEB9BC822959C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D734F5980CF4609635307AEE7ECB65B2 /* Cache.swift in Sources */,
+				9D751AE797836951F9FD0A4E9E6AE344 /* CGSize+Swift.swift in Sources */,
+				6F41805C2984D3172CEBDCB232A9E205 /* CryptoSwiftMD5.swift in Sources */,
+				516B284EC38BCC14EBF5A275790CFA9E /* Data.swift in Sources */,
+				44ACFD0543993523C7B2875814A25A65 /* DiskCache.swift in Sources */,
+				233D0C74026D4F77CB562E90B2714777 /* DiskFetcher.swift in Sources */,
+				0DA289E3CFC0496E8A393A78831458C6 /* Fetch.swift in Sources */,
+				424F2EE8F3FF0206A8C0455939698D41 /* Fetcher.swift in Sources */,
+				F211DBF02AD9CCDECA9BD1C3F58CD42E /* Format.swift in Sources */,
+				7E867974234ECCA3F0419879A37EF9A1 /* Haneke.swift in Sources */,
+				34BA8F11703FC6F1FC94812A2B451A2D /* HanekeSwift-dummy.m in Sources */,
+				734D2D7728F4FDB196AFBDA6FE131376 /* Log.swift in Sources */,
+				45D941F68F765620760E8EC56F4C3904 /* NetworkFetcher.swift in Sources */,
+				C9FDF6F209E90829A8E96B03077116BB /* NSFileManager+Haneke.swift in Sources */,
+				5946A4834D77660F3D8188ED70FDC603 /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				2D93F149491F25BCC11EBF259DE1791D /* NSURLResponse+Haneke.swift in Sources */,
+				25F558B3167CC7FAFCCC902B83ED0599 /* String+Haneke.swift in Sources */,
+				A257C7E3394A9813188DC886B978193F /* UIButton+Haneke.swift in Sources */,
+				048BE8B1399E22885B758F58B5103AAF /* UIImage+Haneke.swift in Sources */,
+				368FBAAE5E624FDDB6F39D1ACB1DA144 /* UIImageView+Haneke.swift in Sources */,
+				9F0ED20EDA02495C3CE53351168BDA34 /* UIView+Haneke.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7530D569A7D68405678F61D9EED4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF6E8C92BE17D461757095A45A22116 /* Pods-MercariIntvTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4AEB0DEF5F2A9636F5D6517BBF3811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HanekeSwift;
+			target = AE4759774042D8E013517E82C6F7A058 /* HanekeSwift */;
+			targetProxy = 8F7A2D82EAFA0FE2F38410CD20DD5FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B3EC1DD9F549159FE874E3E2D18917A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5565968F932D68E8C4BA30CB251CCC /* Pods-MercariIntvTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PC6ZE95SDH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MercariIntvTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercariIntvTests/Pods-MercariIntvTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MercariIntvTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD38F9DBDC5D380D52B47AF6A7C8836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC58E0943575B6B8CA4FEE2725830EAF /* Pods-MercariIntv.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PC6ZE95SDH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MercariIntv/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercariIntv/Pods-MercariIntv.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MercariIntv;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFBB3166EA2A91EE80A10C2B08966DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610018456253065C5F85EE744C8EF7CB /* HanekeSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PC6ZE95SDH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Haneke;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E21B61D0B1BE3FAD5126051770C71D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B52FB1C3F6E87B6BF1729B77EB548EB /* Pods-MercariIntvTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PC6ZE95SDH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MercariIntvTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercariIntvTests/Pods-MercariIntvTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MercariIntvTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7B1EAFB0BF47270598451EEAC4C3C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610018456253065C5F85EE744C8EF7CB /* HanekeSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PC6ZE95SDH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Haneke;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FED04934EE7B543544E7ED5463D2907C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868447E77BFE7924E8AC87A347C3A7E7 /* Pods-MercariIntv.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PC6ZE95SDH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MercariIntv/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercariIntv/Pods-MercariIntv.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MercariIntv;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD468FB375E9C1971E9F0CFE51A4135 /* Build configuration list for PBXNativeTarget "HanekeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBB3166EA2A91EE80A10C2B08966DA3 /* Debug */,
+				F7B1EAFB0BF47270598451EEAC4C3C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC20533F21127470A7FE126AFCF25035 /* Build configuration list for PBXNativeTarget "Pods-MercariIntvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3EC1DD9F549159FE874E3E2D18917A /* Debug */,
+				E21B61D0B1BE3FAD5126051770C71D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCBD4BB69F72FFD84ECD27D34A3935B /* Build configuration list for PBXNativeTarget "Pods-MercariIntv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED04934EE7B543544E7ED5463D2907C /* Debug */,
+				BD38F9DBDC5D380D52B47AF6A7C8836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

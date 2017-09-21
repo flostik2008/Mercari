@@ -1,0 +1,6 @@
+framework module Pods_MercariIntv {
+  umbrella header "Pods-MercariIntv-umbrella.h"
+
+  export *
+  module * { export * }
+}
